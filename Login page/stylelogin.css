@@ -1,0 +1,134 @@
+/* vietnamese */
+@font-face {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/exo/v10/4UaZrEtFpBI4f1ZSIK9d4LjJ4g03OwtmO24p.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/exo/v10/4UaZrEtFpBI4f1ZSIK9d4LjJ4g03OwpmO24p.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/exo/v10/4UaZrEtFpBI4f1ZSIK9d4LjJ4g03OwRmOw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    background: url('../images/pic1.jpg');
+    opacity: 0.1px;
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+    font-family: 'Exo', sans-serif;
+    position: relative;
+}
+
+.loginbox {
+    background-color: transparent;
+    width: 400px;
+    height: 450px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+
+}
+
+.login {
+    padding-top: 40px;
+    color: black;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+.loginbox input[type="submit"]
+{
+    cursor: pointer;
+    border:none;
+    outline:none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Exo', sans-serif;
+    margin-left: 35%;
+    font-size: 13px;
+
+    background-color: rgb(116, 113, 113);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5em;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor:pointer;
+    background: rgb(66, 65, 65);
+    color: white;
+}
+
+.username , .password , .email{
+width: 76%;
+color: rgb(58, 69, 75);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(0, 0, 0, 0.04);
+padding: 10px 20px;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(90, 87, 87, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Exo', sans-serif;
+}
+
+
+
+.form {
+    padding-top: 10px;
+}
+
+
+.username:focus, .password:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;    
+}
+
+
+
+.forgot {
+    text-shadow: 0px 0px 3px rgb(126, 121, 121);
+    color: black;
+    padding-top: 20px;
+    font-size: 17px;
+    
+}
+
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color:black;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+    
+    
+

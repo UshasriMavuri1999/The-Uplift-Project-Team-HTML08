@@ -31,24 +31,6 @@
 4. Create a pull request from `<username>/<branchName>` to `The-Uplift-Project-TeamHTML08/<branchName>`
 
 
-## Team Details
-
-| Name | Role | Email Id | 
-| ---------- | ----- |  ---------: |
-| Parjanya Aditya Shukla | Moderator | padityashukla@gmail.com |  
-|Ahmad Taquee |Mentor|taquee.ahmad7@gmail.com
-|Ushasri Mavuri|Mentor|ushasrimavuri1999@gmail.com
-|Raksha Jain|Participant|raksha009btcse19@igdtuw.ac.in
-|Samiksha Sandip Sankar|Participant|samikshasankar2000@gmail.com
-|Saumya Nasa|Participant|nasa.saumya15@gmail.com
-|Sanskriti Negi|Participant|sanskritinegi37@gmail.com
-|Sakshi Choudary|Participant|choudarysakshi023@gmail.com
-|Sayani Ghosh|Participant|sayani03@gmail.com
-|Tanay Gupta|Participant|tanaygupta49@gmail.com
-|Sanyam Rathore|Participant|sanyam.12rathore@gmail.com
-|Pranav Ashok Aher|Participant|prranavyaher@gmail.com
-
-
 ## Resources
 1. [Git & Github](https://youtu.be/xuB1Id2Wxak)
 2. [HTML and CSS by Jon Duckett](https://wtf.tw/ref/duckett.pdf)

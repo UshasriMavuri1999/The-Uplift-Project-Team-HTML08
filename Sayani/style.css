@@ -1,0 +1,68 @@
+label {
+    display: block;
+    
+}
+
+input,
+label {
+    margin: 10px 250px ;
+    font: sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    
+}
+
+body {
+    background-image: url('resum1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+.header {
+    background-color: #e1eff3;
+    font: sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    margin: 100px 30px 3px 30px;
+    text-align: center;
+    border-radius: 3pc;
+}
+
+.bodytop{
+    background-color: rgb(119, 208, 238);
+    font: sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    margin: 3px 30px 10px 30px;
+    text-align: center;
+    border-radius: 0.5pc;
+    color: rgb(32, 34, 37);
+}
+
+
+.bodylow {
+    align-content: center;
+    text-align: center;
+}
+
+button {
+    color: cornflowerblue;
+    font-size: xx-large;
+    font-weight: 500;
+    font: sans-serif;
+    border-radius: 3pc;
+    margin: 50px 450px 50px 600px;
+    text-align: center;
+    border: ivory;
+    padding: 20px;
+    align-content: center;
+  
+}
+
+button:hover {
+    background-color: cornsilk;
+
+    
+}

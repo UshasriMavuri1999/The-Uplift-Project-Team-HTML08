@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta http-equip="Content-Type" content="text/html;charse=utf=8" />
+<title>Untitled Document</title>
+<link href="../css/logn.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Play" />
+</head>
+   
+<body><center>
+ <div class="signin">
+ <form>
+     <center><h2 style="color: white">LOg IN</h2></center>
+   <input type="text" name="Username" placeholder="Username" required><br><br>
+    <div class="second-example">
+        <div id=myInput><input type="password"  value="" placeholder="Password" id="password-2"  onkeyup="validate();" required></div></div>
+    <script src="../js/logn.js"></script>
+    <script>
+var password = document.getElementById("password")
+  , confirm_password = document.getElementById("confirm_password");
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Password Doesn't Match");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+</script>
+         <div id="validation-txt">
+         </div>
+     <div class="d"><input type="checkbox" onclick="myFunction()"></div><div class="e">Show Password</div>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="../css/logn.css">
+    <script>
+      function validate(){
+  var  validationField = document.getElementById('validation-txt');
+  var  password= document.getElementById('password-2');
+
+  var content = password.value;
+  var  errors = [];
+  console.log(content);
+  if (content.length < 8) {
+    errors.push("Your password must be at least 8 characters"); 
+  }
+  if (content.search(/[a-z]/i) < 0) {
+    errors.push("Your password must contain at least one letter.");
+
+  }
+  if (content.search(/[0-9]/i) < 0) {
+    errors.push("Your password must contain at least one digit."); 
+
+  }
+  if (errors.length > 0) {
+    validationField.innerHTML = errors.join('');
+
+    return false;
+  }
+    validationField.innerHTML = errors.join('');
+    return true;
+
+  }
+</script>
+
+     
+     
+     <br><br><br><div class="f">
+     <center><a href="cong.html"><input type="button" value="Log IN"0></a><br></center>
+     <br><br><br>
+     <center>
+     <div class="g"><div id="container">
+         <a href="../html/re.html" style="margin-right:0px; font-size:16px; font-family:Tahoma, Geneva, sans-serif;">Reset Password</a>
+         &nbsp;&nbsp;
+         <a href="../html/for.html" style="margin-right:0px; font-size:16px; font-family:Tahoma, Geneva, sans-serif;">Forgot Password</a></div>
+     </div><br /><br /><br />
+     </center>
+     Don't have account?<a href="../html/sgnup.html" style="font-family:'Play', sans-serif;">&nbsp;Sign Up</a>
+     </div></form>
+    </div></center>
+    </body>
+</html>

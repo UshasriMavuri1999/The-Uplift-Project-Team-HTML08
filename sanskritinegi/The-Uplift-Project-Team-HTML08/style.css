@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+
+
+body{
+ font-family: 'Exo', sans-serif;
+ background-image: url('./images/bg-intro-desktop.png');
+ background-color: #9966cc;
+}
+
+h1{
+  padding-top: 100px;
+  color: white;
+  font-weight: bold;
+}
+
+.login-page {
+  width: 360px;
+  padding: 150px 0 0;
+  margin: auto;
+}
+.form {
+  padding-top: 
+	font-family: 'Exo', sans-serif;
+  position: relative;
+  z-index: 1;
+  background: white;
+  max-width: 360px;
+
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: 3px black;
+  border: 5px solid white;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.form input {
+  width: 100%;
+  
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.2);
+
+    padding: 40px;
+	font-family: 'Exo', sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 25px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 12px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-top: 5px;
+
+}
+ button {
+ font-family: 'Exo', sans-serif;
+ font-weight: bold;
+  margin-top: 25px;
+  text-transform: uppercase;
+  outline: 0;
+  background:#ff6781 ;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: black;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  color: white;
+  background-color: purple;
+  transform: scale(1.1);
+}
